@@ -24,7 +24,9 @@ ul {
 
 img {
   display: block;
+  width: 100%;
   max-width: 100%;
+  height: auto;
 }
 
 .btn-modal, .modal-form-policy, .header-nav, .header__container, .header-contacts, .icon-container-features, .label-our-work, .icon-container-team, .icon-social, .icon-ref, .icon-social__item, .icon-team, .icon-clients-container, .clients-container, .icon-social__ref {
