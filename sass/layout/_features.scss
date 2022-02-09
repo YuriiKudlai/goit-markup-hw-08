@@ -2,7 +2,8 @@
   @extend %align-list;
   justify-content: center;
 
-  width: 270px;
+  // width: 270px;
+
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -16,15 +17,15 @@
 }
 
 .list-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // margin-right: -30px;
   margin-bottom: -30px;
 }
 
 .features-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-right: 30px;
+  // flex-basis: calc(100% / 4 - 30px);
+  // margin-right: 30px;
   margin-bottom: 30px;
 }
 
