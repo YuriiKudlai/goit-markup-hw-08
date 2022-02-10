@@ -18,9 +18,9 @@
   display: flex;
 }
 
-.header-contacts {
-  @extend %align-list;
-}
+// .header-contacts {
+//   @extend %align-list;
+// }
 
 .header-contacts {
   .nav__item:not(:last-child) {

@@ -1,6 +1,6 @@
-.icon-clients-container {
-  @extend %align-list;
-}
+// .icon-clients-container {
+//   @extend %align-list;
+// }
 
 .icon-clients {
   width: 106px;
@@ -18,15 +18,29 @@
   }
 }
 
-.list-container {
+.list-container-clients {
   .list-clients:not(:last-child) {
     margin-right: 30px;
     margin-bottom: 30px;
+    // @media screen and (max-width: 480px) {
+    //   display: flex;
+    //   flex-wrap: wrap;
+    //   width: calc(100% / 2 - 30px);
+    //   margin-right: 30px;
+    // }
   }
 }
 
+// .list-container-clients {
+//   @media screen and (max-width: 480px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     // width: calc(100% / 2 - 30px);
+//     // margin-right: 30px;
+//   }
+// }
 .clients-container {
-  width: 170px;
+  width: 210px;
   height: 92px;
   @extend %align-list;
   justify-content: center;

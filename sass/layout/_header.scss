@@ -3,17 +3,17 @@
 }
 
 .header-nav {
-  @extend %align-list;
+  // @extend %align-list;
   margin-right: 305px;
 }
 
-.header__container {
-  @extend %align-list;
-}
+// .header__container {
+//   @extend %align-list;
+// }
 
-.head-nav {
-  display: flex;
-}
+// .head-nav {
+//   display: flex;
+// }
 
 .head-nav {
   .head-nav__item:not(:last-child) {
