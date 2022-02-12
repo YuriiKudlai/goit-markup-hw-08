@@ -82,18 +82,27 @@
   padding-left: 16px;
   // margin-right: 12px;
   margin-bottom: 20px;
+  @media screen and (min-width: 480px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) {
+    // width: 100%;
+    width: 450px;
+  }
   @media screen and (min-width: 1200px) {
     width: 358px;
+    margin-right: 12px;
   }
 }
 
 .footer-input-container {
   @media screen and (min-width: 768px) {
     margin-left: 166px;
-    width: 450px;
+    // width: 450px;
+    // width: 100%;
   }
   @media screen and (min-width: 1200px) {
-    width: 358px;
+    // width: 358px;
     margin-left: 0px;
   }
 }
@@ -115,9 +124,22 @@
   letter-spacing: 0.06em;
 
   color: var(--primary-white-color);
+  // display: block;
+  // margin: 0 auto;
+  @media screen and (min-width: 480px) {
+    display: block;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin: 0 auto;
+  }
 
-  display: block;
-  margin: 0 auto;
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+
+    // margin: 0 auto;
+  }
 }
 
 .icon-send {
@@ -164,6 +186,8 @@
   letter-spacing: 0.03em;
 
   margin-bottom: 9px;
+}
+.footer-address {
   @media screen and (min-width: 768px) {
     margin-left: 76px;
     margin-right: 165px;

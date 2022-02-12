@@ -1031,22 +1031,33 @@ textarea {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 480px) {
+  .footer-input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-input {
+    width: 450px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer-input {
     width: 358px;
+    margin-right: 12px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer-input-container {
     margin-left: 166px;
-    width: 450px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .footer-input-container {
-    width: 358px;
     margin-left: 0px;
   }
 }
@@ -1067,8 +1078,26 @@ textarea {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  display: block;
-  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-form-btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form-btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form-btn {
+    display: inline-block;
+  }
 }
 
 .icon-send {
@@ -1121,14 +1150,14 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-addres {
+  .footer-address {
     margin-left: 76px;
     margin-right: 165px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-addres {
+  .footer-address {
     margin-left: 0px;
     margin-right: 70px;
   }
