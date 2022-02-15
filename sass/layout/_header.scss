@@ -117,6 +117,10 @@
   margin-left: auto;
   cursor: pointer;
   border: none;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
   background-color: #fff;
   @media screen and (min-width: 768px) {
     display: none;
@@ -162,6 +166,10 @@
   cursor: pointer;
   border: none;
   background-color: #fff;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 .mob-menu-list__link {
   text-decoration: none;
@@ -170,6 +178,10 @@
 
   color: var(--primary-text-color);
   @include font(500, 40px, 1.17, 0.02em);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .mob-nav__link {
   text-decoration: none;
@@ -177,6 +189,10 @@
   position: relative;
   color: var(--secondary-text-color);
   @include font(500, 24px, 1.17, 0.02em);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .mob-menu-list {
   .mob-menu-list__item:not(:last-child) {

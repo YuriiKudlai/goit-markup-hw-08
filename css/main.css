@@ -565,6 +565,10 @@ textarea {
   background-color: #fff;
 }
 
+.menu-open-btn:hover, .menu-open-btn:focus {
+  fill: var(--accent-color);
+}
+
 @media screen and (min-width: 768px) {
   .menu-open-btn {
     display: none;
@@ -614,6 +618,10 @@ textarea {
   background-color: #fff;
 }
 
+.mob-btn-modal:hover, .mob-btn-modal:focus {
+  fill: var(--accent-color);
+}
+
 .mob-menu-list__link {
   text-decoration: none;
   display: block;
@@ -625,6 +633,10 @@ textarea {
   letter-spacing: 0.02em;
 }
 
+.mob-menu-list__link:hover, .mob-menu-list__link:focus {
+  color: var(--accent-color);
+}
+
 .mob-nav__link {
   text-decoration: none;
   display: block;
@@ -634,6 +646,10 @@ textarea {
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+}
+
+.mob-nav__link:hover, .mob-nav__link:focus {
+  color: var(--accent-color);
 }
 
 .mob-menu-list .mob-menu-list__item:not(:last-child) {
