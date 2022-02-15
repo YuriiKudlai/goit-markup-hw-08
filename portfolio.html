@@ -28,10 +28,10 @@
                         class="header-nav__logo--dark">Studio</span></a>
                 <ul class="head-nav list">
                     <li class="head-nav__item">
-                        <a class="head-nav__link" href="./index.html">Студия</a>
+                        <a class="head-nav__link current " href="./index.html">Студия</a>
                     </li>
-                    <li class="head-nav__item">
-                        <a class="head-nav__link current" href="./portfolio.html">Портфолио</a>
+                    <li class="head-nav__item current">
+                        <a class="head-nav__link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="head-nav__item">
                         <a class="head-nav__link" href="#">Контакты</a>
@@ -44,33 +44,75 @@
                         <svg class="icon-smartphone">
                             <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                         </svg>
-                        +38 096 111 11 11
-                    </a>
+                        +38 096 111 11 11</a>
                 </li>
                 <li class="nav__item">
                     <a class="head-nav__link icon-header" href="mailto:info@devstudio.com">
                         <svg class="icon-envelope">
                             <use href="./images/symbol-defs.svg#icon-envelope"></use>
                         </svg>
-                        info@devstudio.com
-                    </a>
+                        info@devstudio.com</a>
                 </li>
     
-            <!-- </ul>
-            <ul class="list header-social">
-                <li class="header-social__item">
-                    <a class="head-nav__link" href="#">Instagram</a>
-                </li>
-                <li class="header-social__item">
-                    <a class="head-nav__link" href="#">Twitter</a>
-                </li>
-                <li class="header-social__item">
-                    <a class="head-nav__link" href="#">Facebook</a>
-                </li>
-                <li class="header-social__item">
-                    <a class="head-nav__link" href="#">LinkedIn</a>
-                </li>
-            </ul> -->
+            </ul>
+            <button type="button" class="menu-open-btn" data-menu-open>
+                <svg class="icon-mob-btn-open">
+                    <use href="./images/symbol-defs.svg#icon-mob-menu-open"></use>
+                </svg>
+            </button>
+        </div>
+    
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="container">
+                <div class="mob-container-top">
+                    <button type="button" class="mob-btn-modal" data-menu-close>
+                        <svg class="menu-close-btn">
+                            <use href="./images/symbol-defs.svg#icon-close"></use>
+                        </svg>
+                    </button>
+    
+                    <ul class="mob-menu-list list">
+                        <li class="mob-menu-list__item">
+                            <a class="mob-menu-list__link current " href="./index.html">Студия</a>
+                        </li>
+                        <li class="mob-menu-list__item">
+                            <a class="mob-menu-list__link" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="mob-menu-list__item">
+                            <a class="mob-menu-list__link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mob-container-bottom">
+                    <ul class="mob-header-contacts list">
+                        <li class="mob-nav__item">
+                            <a class="mob-nav__link tel" href="tel:+380961111111">
+                                +38 096 111 11 11</a>
+                        </li>
+                        <li class="mob-nav__item">
+                            <a class="mob-nav__link" href="mailto:info@devstudio.com">
+                                info@devstudio.com</a>
+                        </li>
+    
+                    </ul>
+    
+    
+                </div>
+                <ul class="list header-social">
+                    <li class="header-social__item">
+                        <a class="head-nav__link" href="#">Instagram</a>
+                    </li>
+                    <li class="header-social__item">
+                        <a class="head-nav__link" href="#">Twitter</a>
+                    </li>
+                    <li class="header-social__item">
+                        <a class="head-nav__link" href="#">Facebook</a>
+                    </li>
+                    <li class="header-social__item">
+                        <a class="head-nav__link" href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -305,5 +347,7 @@
         </div>
     </div>
 </footer>
+
+<script src="./js/menu.js"></script>
 </body>
 </html>

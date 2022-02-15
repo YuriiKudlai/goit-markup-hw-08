@@ -53,21 +53,65 @@
                     info@devstudio.com</a>
             </li>
             
-        <!-- </ul>
-        <ul class="list header-social">
-            <li class="header-social__item">
-                <a class="head-nav__link" href="#">Instagram</a>
-            </li>
-            <li class="header-social__item">
-                <a class="head-nav__link" href="#">Twitter</a>
-            </li>
-            <li class="header-social__item">
-                <a class="head-nav__link" href="#">Facebook</a>
-            </li>
-            <li class="header-social__item">
-                <a class="head-nav__link" href="#">LinkedIn</a>
-            </li>
-        </ul> -->
+        </ul>
+        <button type="button" class="menu-open-btn" data-menu-open>
+            <svg class="icon-mob-btn-open">
+                <use href="./images/symbol-defs.svg#icon-mob-menu-open"></use>
+            </svg>
+        </button>
+        </div>
+       
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="container">
+                <div class="mob-container-top">
+            <button type="button" class="mob-btn-modal" data-menu-close >
+                <svg class="menu-close-btn">
+                    <use href="./images/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+            
+            <ul class="mob-menu-list list">
+                <li class="mob-menu-list__item">
+                    <a class="mob-menu-list__link current " href="./index.html">Студия</a>
+                </li>
+                <li class="mob-menu-list__item">
+                    <a class="mob-menu-list__link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mob-menu-list__item">
+                    <a class="mob-menu-list__link" href="#">Контакты</a>
+                </li>
+            </ul>
+            </div>
+            <div class="mob-container-bottom">
+            <ul class="mob-header-contacts list">
+                <li class="mob-nav__item">
+                    <a class="mob-nav__link tel" href="tel:+380961111111">
+                        +38 096 111 11 11</a>
+                </li>
+                <li class="mob-nav__item">
+                    <a class="mob-nav__link" href="mailto:info@devstudio.com">
+                        info@devstudio.com</a>
+                </li>
+            
+            </ul>
+            
+
+            </div>
+            <ul class="list header-social">
+                <li class="header-social__item">
+                    <a class="head-nav__link" href="#">Instagram</a>
+                </li>
+                <li class="header-social__item">
+                    <a class="head-nav__link" href="#">Twitter</a>
+                </li>
+                <li class="header-social__item">
+                    <a class="head-nav__link" href="#">Facebook</a>
+                </li>
+                <li class="header-social__item">
+                    <a class="head-nav__link" href="#">LinkedIn</a>
+                </li>
+            </ul>
+            </div>
         </div>
     </header>
     
@@ -235,7 +279,9 @@
             <h2 class="our-team-title">Наша команда</h2>
             <ul class="list list-container">
                 <li class="our-team-item">
-                    <img src="./images/product-designer.jpg" alt="Фото сотрудника Игорь Демьяненко" width="270">
+                    <img 
+                    
+                    src="./images/product-designer.jpg" alt="Фото сотрудника Игорь Демьяненко" width="270">
                    <div class="team-card-text">
                     <h3 class="worker-title">Игорь Демьяненко</h3>
                     <p class="worker-text" lang="en">Product Designer</p>
@@ -524,6 +570,7 @@
     </footer>
     
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 
 </body>
 </html>
