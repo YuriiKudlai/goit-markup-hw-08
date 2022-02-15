@@ -100,6 +100,7 @@
   border-radius: 4px;
   @media screen and (min-width: 320px) and (max-width: 480px) {
     width: 90vw;
+    overflow-y: scroll;
   }
   @media screen and (min-width: 1200px) {
     width: 521px;
@@ -216,6 +217,10 @@
   // font-size: 12px;
   // line-height: 1.16;
   // letter-spacing: 0.03em;
+  @media screen and (max-width: 480px) {
+    margin-bottom: 10px;
+    @include font(null, 10px, null, null);
+  }
   @media screen and (min-width: 1200px) {
     @include font(null, 14px, 1.71, null);
   }
