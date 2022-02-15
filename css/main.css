@@ -601,6 +601,7 @@ textarea {
   z-index: 1;
   padding-top: 21px;
   padding-bottom: 21px;
+  transition: left 1500ms, visibility 1500ms;
 }
 
 .mob-menu .container {
