@@ -279,9 +279,15 @@
             <h2 class="our-team-title">Наша команда</h2>
             <ul class="list list-container">
                 <li class="our-team-item">
-                    <img 
-                    
-                    src="./images/product-designer.jpg" alt="Фото сотрудника Игорь Демьяненко" width="270">
+                    <picture>
+                        <source
+                         srcset="./images/product-designer.jpg  1x,
+                        ./images/team-1_desk_2x.jpg  2x
+                        "
+                        media="(min-width: 1200px)"/>
+                        <img src="./images/product-designer.jpg" alt="Фото сотрудника Игорь Демьяненко" width="270">
+                    </picture>
+                    <!-- <img src="./images/product-designer.jpg" alt="Фото сотрудника Игорь Демьяненко" width="270"> -->
                    <div class="team-card-text">
                     <h3 class="worker-title">Игорь Демьяненко</h3>
                     <p class="worker-text" lang="en">Product Designer</p>

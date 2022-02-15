@@ -488,6 +488,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header-nav {
+    margin-right: 305px;
+  }
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -612,8 +618,8 @@ textarea {
 }
 
 .menu-close-btn {
-  width: 11px;
-  height: 11px;
+  width: 19px;
+  height: 19px;
 }
 
 .mob-btn-modal {
@@ -1287,6 +1293,7 @@ textarea {
 .footer-icon__attachment {
   display: block;
   margin-bottom: 20px;
+  margin-top: 60px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1299,6 +1306,12 @@ textarea {
 @media screen and (min-width: 1200px) {
   .footer-icon__attachment {
     text-align: initial;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-icon__attachment {
+    margin-top: 0px;
   }
 }
 
@@ -1470,6 +1483,12 @@ textarea {
 @media screen and (min-width: 1200px) {
   .address {
     text-align: initial;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .address {
+    margin-bottom: 60px;
   }
 }
 

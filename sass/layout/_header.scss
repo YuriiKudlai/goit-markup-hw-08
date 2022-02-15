@@ -11,6 +11,9 @@
     align-items: center;
     margin-right: 84px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-right: 305px;
+  }
   // @extend %align-list;
   // margin-right: 305px;
   // display: flex;
@@ -155,8 +158,8 @@
 }
 
 .menu-close-btn {
-  width: 11px;
-  height: 11px;
+  width: 19px;
+  height: 19px;
 }
 .mob-btn-modal {
   position: relative;
